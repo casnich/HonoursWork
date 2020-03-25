@@ -1,0 +1,14 @@
+# README
+
+README file for repository for my honours work at ANU in 2020.
+
+## Updating git repository
+1. Check `git status`
+2. Use `git add .` to add all files or `git add <file>` for specific files
+	1. Note that any files in the .gitignore file will be ignored during git commits 	and pushes
+3. `git commit -m "message"`
+4. `git push` then enter passphrase when prompted
+
+## Useful github tutorial
+
+https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners
