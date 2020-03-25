@@ -1,0 +1,86 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+%\usepackage[hidelinks]{hyperref}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{cite}
+\usepackage[version=4]{mhchem} % for isotope symbols
+\usepackage{a4wide}
+\usepackage[lmargin=1cm,rmargin=1cm,tmargin=1cm,bmargin=2cm,headheight=0in]{geometry}
+\usepackage{amssymb}
+
+
+\hypersetup{colorlinks, linkcolor={blue!50!black}, citecolor={blue!50!black},
+	urlcolor={blue!50!black}}
+
+\begin{document}
+\title{Journal Entry - Week Four - Entry Three}
+\author{Caspian Nicholls, u1027945}
+\date{\today}
+
+\maketitle
+
+\noindent
+I give permission for portions of this work to be used as examples in future science communication course notes.
+% \textit{[Delete if you don't want to do this]}\\
+
+\medskip
+\noindent
+\textbf{Article title:} First Performance Results of Ce:GAGG Scintillation Crystals with Silicon Photomultipliers \\
+\textbf{Authors:} Jung Yeol Yeom, Seiichi Yamamoto, Stephen E. Derenzo, Virginia Ch. Spanoudaki, Kei Kamada, Takanori Endo and Craig S. Levin. \\
+\textbf{Reference:} IEEE Transactions on Nuclear Science, vol. 60, no. 2, pp. 988-992, April 2013.\\
+\textbf{Link:}  \href{https://ieeexplore.ieee.org/document/6428666}{Article abstract}. \\
+\textbf{Word count:} 746 words. (note that TeXcount counts Ce:GAGG as two words, when really it is one).
+%\textit{Give the word count of everything below this point, e.g. copy paste into the \href{https://app.uio.no/ifi/texcount/online.php}{TeXcount} online tool. 750 word limit.}
+
+\section*{Context}
+%Briefly summarise the background of the area of physics relevant to the problem they are solving. Why it is an important or relevant area and problem?
+
+For scintillators (devices that emit light when excited by ionizing radiation) to be used in position emission tomography (PET, a common nuclear medicine technique), crystalline structures with a high density and high effective atomic number are desirable.
+In 2012, a new crystal (Ce:GAGG) with higher values of these quantities than some existing scintillators was grown~\cite{kamada_2inch_2012}, showing significant promise for PET applications.
+This paper assesses this crystal's potential as a scintillator, focussing on its suitability for PET.
+
+\section*{Purpose}
+%Explain what problem they are solving, or what information they were trying to gain.
+These researchers aimed to rate the performance of Ce:GAGG. They coupled different Ce:GAGG crystals to silicon photomultipliers (SiPMs: photodetectors that detect the light emitted by a scintillation crystal and convert it into an analysable electrical signal) to rate its performance. They planned to compare this new scintillation crystal with lutetium-yttrium oxyorthosilicate (LYSO) scintillators (commonly used in commercial PET systems), which exhibit one of the best available combinations of the desirable properties for PET scintillators.
+
+\section*{Approach}
+%Describe explicitly the method they use to complete their work, i.e. the experimental system and measurements, the model design and computational techniques used, or the setup of their equations and the assumptions applied.
+Ce:GAGG and LYSO were compared on their energy resolution (how well they can distinguish ionizing particles of different energies) and timing resolution (how well they can distinguish non-concurrent ionization events).
+Two different crystal sizes (same cross-sectional area but different length) were used for both Ce:GAGG and LYSO.
+The shorter crystals were used to rate the timing performance of the SiPM photodetector, unaffected by the propagation of light in the crystal. 
+The longer crystals, having thicknesses that were typical of what is used in PET, were used to test the timing characteristics that could be achieved in real PET devices.
+
+\medskip
+Two different types of SiPMs were also used (with product name abbreviations MPPC and FBK). The MPPC had a peak spectral sensitivity (to incident light) at $\sim$440~nm, near the peak emission wavelength (420~nm) of the LYSO crystals. Contrastingly, FBK had a peak spectral sensitivity at $\sim$530~nm, near the peak emission wavelength (520~nm) of Ce:GAGG.
+
+\medskip
+\bgroup\obeylines
+The energy resolution was measured by analysing the electron-positron annihilation peak from a Ge-68
+\noindent radiation source. The timing resolution of the crystals was first assessed in terms of the coincidence resolving time (CRT: the minimum time between two events that still allows them to be distinguished), by placing the Ge-68 source between two opposing (head-to-head) detector modules (which comprised the scintillation crystal, SiPM and electrical circuitry) and analysing the time-differences between when the two modules detected the gamma rays (which are characteristically emitted in opposite directions) from individual annihilation events. Then, the rise and decay times were measured by irradiating a Ce:GAGG crystal with a pulsed X-ray beam, recording the scintillation light and fitting the shape of the resultant time-series data.
+\egroup
+\section*{Contribution}
+%Describe their results and conclusions, assess how they fit into the field. Mention any important outcomes or future directions enabled by their work.
+The energy resolutions of Ce:GAGG coupled to MPPC and FBK were measured as 7.9\% and 9.0\% respectively$-$significantly better than the $\sim$10\% (with MPPC) and $\sim$14\% (with FBK) resolutions of LYSO. However, with all combinations of crystals and SiPMs used, the measured CRT (indicative of timing resolution) values for LYSO were $\sim$250~ps better than the corresponding values for Ce:GAGG.
+
+\medskip
+Promisingly, 75\% (by intensity) of the scintillation light from GAGG was found to have a fast initial rise time of 0.2~ns. However, 92\% of the emitted light had a decay time of 140~ns, notably slower than the 41~ns of LYSO, which is a more crucial metric for timing resolution. Hence, CE:GAGG was concluded to have significantly poorer timing resolution than LYSO, rendering Ce:GAGG inferior for PET applications. However, Ce:GAGG's prevailing energy resolution and its lack of innate radiation led the authors to suggest that it is suitable for gamma ray spectroscopy. 
+
+\section*{Relevance}
+%Explain how this paper is relevant to your project and what you are trying to get out of the paper. Does it suggest other papers you should read, or give you new information you need?
+Some of my colleagues are currently testing GAGG devices for usage in the detection of particles in gamma ray spectroscopy experiments, so understanding the properties of this material is crucial. 
+
+\section*{Quality}
+%Discuss the quality of the writing and presentation of results, and try to assess how much you trust their assumptions, approach, and conclusions. You can talk to a supervisor to help you with this.
+These authors thoroughly analysed and discussed their results, comprehensively covering many different key aspects of the scintillation crystals they tested. They describe corrections and improvements they made to the results of their initial analysis, and for the most part, clearly explain the logic behind the conclusions they reach. The inclusion of these adjustments they made to solidify their results increases the trustworthiness of their work.
+
+\section*{Questions/Directions}
+%List any questions the paper has raised, and how you might go about addressing them. Describe any directions your reading/own work could take that are suggested by this paper.
+This paper describes the potential of Ce:GAGG for detecting gamma rays, whereas we hope to use this scintillation crystal to detect charged particles. Thus, finding papers that explain the physical basis of this or talking to the people in our research group who are working on this material would be a worthwhile next step to continue developing my understanding of how this material can be useful for our experiments.
+
+\vspace*{-\baselineskip}
+\bibliographystyle{ieeetr}
+\bibliography{references.bib}{}
+
+
+\end{document}

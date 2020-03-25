@@ -1,0 +1,105 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+%\usepackage[hidelinks]{hyperref}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{cite}
+\usepackage[version=4]{mhchem} % for isotope symbols
+\usepackage{a4wide}
+\usepackage[lmargin=1cm,rmargin=1cm,tmargin=1cm,bmargin=2cm,headheight=0in]{geometry}
+
+
+\hypersetup{colorlinks, linkcolor={blue!50!black}, citecolor={blue!50!black},
+	urlcolor={blue!50!black}}
+
+\begin{document}
+\title{Journal Entry - Week Two - Entry One}
+\author{Caspian Nicholls, u1027945}
+\date{\today}
+
+\maketitle
+
+\noindent
+I give permission for portions of this work to be used as examples in future science communication course notes.
+% \textit{[Delete if you don't want to do this]}\\
+
+\medskip
+\noindent
+\textbf{Article title:} Measurement of the isomer production ratio for the $\ce{^{112}Cd}(n,\gamma)\ce{^{113}Cd}$ reaction using neutron beams at J-PARC. \\
+\textbf{Authors:} T. Hayakawa, Y. Toh, M. Huang, T. Shizuma, A. Kimura, S. Nakamura, H. Harada, N. Iwamoto, S. Chiba, and T. Kajino\\
+\textbf{Reference:} PHYSICAL REVIEW C 94, 055803 (2016). \\
+\textbf{Link:}  \href{https://journals.aps.org/prc/abstract/10.1103/PhysRevC.94.055803}{Article abstract}. \\
+\textbf{Word count:} 738 words.
+% Not below the 750 word limit.
+%\textit{Give the word count of everything below this point, e.g. copy paste into the \href{https://app.uio.no/ifi/texcount/online.php}{TeXcount} online tool. 750 word limit.}
+
+\section*{Context}
+%Briefly summarise the background of the area of physics relevant to the problem they are solving. Why it is an important or relevant area and problem?
+
+Astrophysically, neutron-deficient isotopes are generally formed in stars via the slow ($s$-) or rapid ($r$-) neutron-capture processes. Yet, the solar abundances (indicative of their broader Universal abundances) of $\ce{^{112}Sn}$ and $\ce{^{114}Sn}$ are predominantly explained by the $\gamma$-process. However, none of these processes have been able to explain the solar abundance of $\ce{^{115}Sn}$, so the search for its astrophysical origin continues.
+
+%The astrophysical production pathways of the neutron-deficient isotopes $\ce{^{112,114,115}Sn}$ remained unknown until around 1980. Their abundances in the Sun (indicative of their abundance in the wider Universe) could not be explained by the slow ($s$-) or rapid ($r$-) neutron-capture processes through which most similar isotopes are synthesised in stars (by previous studies). A 1978 study then proposed the $\gamma$-process as to how these isotopes were formed. Using model calculations, this was found to be the predominant source of $\ce{^{112,114}Sn}$. Yet, these same calculations underestimate the solar abundance of $\ce{^{115}Sn}$, so the search for it's astrophysical origin continues.
+
+
+\section*{Purpose}
+%Explain what problem they are solving, or what information they were trying to gain.
+This study aimed to estimate the magnitude of the contribution of the slow neutron-capture process that results in nucleosynthesis of $\ce{^{115}Sn}$ from $\ce{^{113m}Cd}$, to try and pin down its astrophysical origin. A previous work by these authors~\cite{hayakawa_neutron_2009} had found through statistical modelling that the ratio of the reaction cross-section for the process $\ce{^{112}Cd}(n,\gamma)\ce{^{113m}Cd}$ to the cross-section for the process $\ce{^{112}Cd}(n,\gamma)\ce{^{113gs}Cd}$ (gs: ground state) is related to the abundance of $\ce{^{115}Sn}$ for incident neutron energies between 1 and 50 keV. Through measuring this ratio, they hoped to establish whether or not this $s$-process could be the primary contributor to the astrophysical formation of $\ce{^{115}Sn}$.
+
+
+\section*{Approach}
+%Describe explicitly the method they use to complete their work, i.e. the experimental system and measurements, the model design and computational techniques used, or the setup of their equations and the assumptions applied.
+A high energy pulsed proton beam was fired onto a mercury target to initiate spallation reactions and generate a high flux beam of pulsed neutrons. This neutron beam was fired onto a $\ce{^{112}Cd}$ foil, with two cluster high-purity germanium (HPGe) and bismuth germanate (BGO) Compton-suppression detectors used to record the $\gamma$-rays that were emitted from the neutron-capture reactions. The neutron energies were recorded using a time-of-flight (TOF) method, by measuring the time when the detectors measured the $\gamma$-rays from the target. The energies of the recorded neutrons could be reconstructed as when a $\gamma$-ray hit any one of the fourteen crystals in their set up, the energies of all $\gamma$-rays detected by the other crystals in coincidence were also recorded in a joint list. 
+
+%Not sure if this is required - might be unnecessary detail.
+%\medskip
+%The Hauser-Feshbach statistical model was also used via the CCONE code to test the spin-parity assignments that they made to some of the observed neutron-capture resonances of $\ce{^{112}Cd}$. This model accounted for the total cross-section and elastic scattering angular distributions of natural cadmium, whilst simulating the deformed ground state of $\ce{^{112}Cd}$ by adopting non-zero quadrupole and hexadecapole deformation parameters. States within $\ce{^{113}Cd}$ above 1192 keV were assumed to form a continuous distribution, which is reasonable given that these authors only observed the presence of levels with energies up to around 700 keV (as in their Figure 5).
+
+
+\section*{Contribution}
+%Describe their results and conclusions, assess how they fit into the field. Mention any important outcomes or future directions enabled by their work.
+The following conclusions were made as a result of this study:
+\begin{itemize}
+	\item The astrophysical origin of Sn-115 remains a mystery. While its $s$-process abundance does depend on the isomer production ratio in the $\ce{^{112}Cd}(n,\gamma)\ce{^{113}Cd}$ reaction, this process' contribution is minor.
+	\item A spin-parity of $J^\pi = 3/2^-$ was assigned to the neutron-capture (on $\ce{^{112}Cd}$) resonance at 737 eV. This state was reasoned to be populated by the capture of a $p$-wave neutron, supported by the results of calculating these branching ratios using a Hauser-Feshbach statistical model.
+	\item Measuring isomer production ratios using an HPGe array and a TOF method was found to be an effective way of making spin-parity assignments for neutron-capture resonances.
+\end{itemize}
+%The primary conclusions of this study were that the astrophysical origin of Sn-115 remains a mystery and that while its $s$-process abundance does depend on the isomer production ratio in the $\ce{^{112}Cd}(n,\gamma)\ce{^{113}Cd}$ reaction, this process' contribution is minor. However, a spin-parity of $J^\pi = 3/2^-$ was assigned to the observed neutron-capture resonance with an energy of 737 eV. This state was reasoned to be populated by the capture of a $p$-wave neutron, supported by the results of calculating these branching ratios using a statistical model. However, significantly, it was found that measuring isomer production ratios using an HPGe array and a TOF method was found to be an effective way of making spin-parity assignments for neutron-capture resonances.
+
+
+\section*{Relevance}
+%Explain how this paper is relevant to your project and what you are trying to get out of the paper. Does it suggest other papers you should read, or give you new information you need?
+This paper is strongly centered around $\ce{^{113m}Cd}$\textemdash the isomer that I seek to study as part of my Honours project. Part of my introductory work is a summary of the nuclear physical studies that have been done on this isomer before to provide context for the work I am doing. This paper has also helped inform my ideas for which reaction processes I will use to produce this isomer using the 14UD pelletron accelerator.
+
+\section*{Quality}
+%Discuss the quality of the writing and presentation of results, and try to assess how much you trust their assumptions, approach and conclusions. You can talk to a supervisor to help you with this.
+
+The results presented were typically clearly written and well structured. Typically the approach and conclusions that were used seem reasonable and well justified. A sufficient amount of detail to solidly support the conclusions made in this study or modelling results was included. However, the explanation of the details of the implementation of the Hauser-Feshbach code within the CCONE code they used to model the neutron-capture of $\ce{^{112}Cd}$ was not as clear as the rest of this work, because it relied quite heavily on other works through the frequent references to other articles made within that section. Overall, the level of explanation that they provided did give some sense that their model was reasonable but it was not wholly reassuring. In general, sections where they included references to other papers for further details seemed less clearly written than the rest of the paper.
+
+% Results are typically well presented and clear. 
+% They have put in the effort to solidly support their conclusions
+% However, their section about the statistical model (Hauser-Feshbach) could be clearer and they could explain how they built this model up in a clearer fashion I think. 
+
+\section*{Questions/Directions}
+%List any questions the paper has raised, and how you might go about addressing them. Describe any directions your reading/own work could take that are suggested by this paper.
+
+I wonder if any further spin-parity assignment work using this combined TOF and HPGe detector method has been done, particularly for phenomena other than neutron-capture resonances. Given more time to explore other directions than that planned for my thesis, exploring neutron-capture resonances further would be worthwhile. This could be achieved by looking for subsequent studies by these authors or looking through the papers that have cited this article.
+
+\medskip
+The only approach used in this study that I might be able to use advantageously is the time-of-flight method, given we are also going to be using HPGe and BGO detectors to measure the emitted $\gamma$-rays from the reactions we will be facilitating with the 14UD accelerator. However, given this accelerator produces beams with quite precisely-known energies, this method would probably not add any extra information to our results and thus would probably not be worthwhile.
+
+% Could do more reading to see if anyone else has followed up on this method of using TOF and HPGEs to make spin-parity assignments, and see if they've used this approach to make assignments for something other than neutron resonances.
+% Could read more about neutron-capture resonances, but that may not be relevant for my work
+
+%\closing{Word count: \hl{insert word count using eg. texcounter online}} %eg. Regards
+
+%\section*{References}
+
+\vspace*{-\baselineskip}
+\bibliographystyle{ieeetr}
+\bibliography{references.bib}{}
+
+
+
+
+
+\end{document}

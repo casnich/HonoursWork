@@ -1,0 +1,92 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+%\usepackage[hidelinks]{hyperref}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{cite}
+\usepackage[version=4]{mhchem} % for isotope symbols
+\usepackage{a4wide}
+\usepackage[lmargin=2cm,rmargin=2cm,tmargin=2cm,bmargin=2cm,headheight=0in]{geometry}
+\usepackage{amssymb}
+
+
+\hypersetup{colorlinks, linkcolor={blue!50!black}, citecolor={blue!50!black},
+	urlcolor={blue!50!black}}
+	
+% Caption font sizes	
+\DeclareCaptionFont{CaptionFontSize}{\fontsize{12pt}{12pt}}
+\captionsetup[table]{font=CaptionFontSize}
+\captionsetup[figure]{font=CaptionFontSize}
+
+\begin{document}
+\title{Research Proposal}
+\author{Student: Caspian Nicholls (u1027945)}
+\date{Supervisor: Dr AJ Mitchell (Department of Nuclear Physics)}
+%\date{\today}
+
+\maketitle
+\section*{Context and Aims}
+
+\begin{itemize}
+\item field: fundamental nuclear physics and energy storage
+\item problem we are trying to solve: looking for evidence of isomer depletion in  $\ce{^{113}Cd}$ and trying to find an intermediate state that is part of a depletion pathway. If we find such an intermediate state, or observe isomer depletion, this will be a significant step towards realising the use of nuclear isomers for long-lived, high (spatial) density energy storage.
+\item Motivation: finding a way to release the energy stored in nuclear isomers to allow us to realise energy storage at high energy density with a long "half-life" (14.1 years in the case of $\ce{^{113m}Cd}$~\cite{shaffer_innovations_2018})
+\item Motivation \#2: refining/developing the level scheme of $\ce{^{113}Cd}$ ('investigating the nuclear levels of  $\ce{^{113}Cd}$"), in particular by looking for candidate intermediate states/depletion levels. 
+\item Motivation \#3: measuring reaction cross sections for the reactions $\ce{^{7}Li}(\ce{^{110}Pd},p3n)\ce{^{113}Cd}$ and $\ce{^{9}Be}(\ce{^{110}Pd},2p4n)\ce{^{113}Cd}$ (or$\ce{^{7}Li}(\ce{^{110}Pd},tn)$ and $\ce{^{9}Be}(\ce{^{110}Pd},\alpha 2n)\ce{^{113}Cd}$).
+\item Motivation \#4: investigating breakup of the compound nuclei $\ce{^{7}Li}$ ($\alpha + t$) and $\ce{^{9}Be}$ ($2\alpha+n$)~\cite{curtis_+li_2005,von_oertzen_two-center_1996,von_oertzen_dimers_1997,soic_-decaying_2004,poletti_structure_1994}
+\item Tentative motivation \#5: observing NEEC (may have been observed in 2016, but the jury is out on that one). 
+\end{itemize}
+Outline of how this section might flow:
+\begin{itemize}
+\item There is a chemical limit on the intrinsic energy density of chemical fuels and batteries of around $10^5$~J/g~\cite{shaffer_innovations_2018}. 
+\item As the demand for energy and power continues to grow around the world, and the space available to us remains constant, finding ways to generate more energy in the same amount of space is becoming progressively more crucial. 
+\item Radioisotopes are one medium that can store energy at a greater mass density than chemicals, with energy densities on the order of $10^9$~J/g~\cite{shaffer_innovations_2018}.
+\item Aside: these materials can also have long half-lives (on the order of years or greater), enabling means of storing energy that can potentially be useful over extended periods of time. 
+\item However, some radioisotopes also have excited states which also have long half-lives. These \textit{metastable} states, known as \textit{nuclear isomers}, could potentially allow for even greater energy densities to be achieved than would be possible with only the ground state forms of radioisotopes.
+\item Around eleven long-lived isomers with half-lives in excess of one year are known (their half-lives range over 16 orders of magnitude (in years)).
+\item Yet it is not known if there is a means of releasing the energy from these isomers on demand.
+\item The isomer $\ce{^{113m}Cd}$, with a half-life of 14.1 years~\cite{shaffer_innovations_2018}, is one such example of a metastable form that does not have a known pathway along which the energy can be released. The half-life of this isomer is such that it is fit for relatively long-term energy storage applications, should such a pathway be discovered. 
+\item Research campaigns are already being undertaken into some other long-lived isomers as part of a collaboration between the ANU and the US Army. As yet, an exploration into the potential of $\ce{^{113m}Cd}$ has not been conducted~\cite{shaffer_innovations_2018}. My project aims to fill this void by conducting experiments to investigate the nuclear levels of $\ce{^{113}Cd}$ and search for a pathway within the energy level structure of this isotope via which the energy of the isomer can be harnessed. 
+\end{itemize}
+Aims
+\begin{itemize}
+\item Investigate the nuclear levels of 113Cd by reconstructing pathways through which nuclear excited states decay by the emission of gamma rays (using gamma spectroscopy). Ideally, find a suitable candidate depletion level that is known to decay into the isomeric state, or at least add new levels to the known scheme of this isotope.
+\item Gain expertise in gamma ray spectroscopy.
+\item Gain expertise in using nuclear instrumentation and operating the 14UD tandem accelerator.
+\item Develop my skills in analysing multi-parameter data sets using a new digital data acquisition system.
+\item Interpret my results within a range of theoretical nuclear-structure models (shell model, ...)
+\item Secondary goals:
+\begin{itemize}
+\item Measure cross sections for certain nuclear reactions
+\item Utilise and test charged particle detectors (GAGG)
+\item Record and quantify/qualify evidence of breakup in nuclear reactions
+\end{itemize}
+\end{itemize}
+
+\section*{Background}
+"Background information necessary to understand my particular project".
+\begin{itemize}
+\item Why do nuclear isomers exist? Vibrations, rotations, collective motion. Selection rules and forbidden photon transitions. From physics of matter (lecture 26 Greg), nuclear isomers exist because the decay of the isomeric state is inhibited, generally from a combination of the following factors:
+\begin{itemize}
+\item The state can only decay (by spontaneous emission) via a high multipolarity gamma-ray transition, which are known to be relatively slow (compared to lower multipolarity transitions). It could be this for 113Cd, as the spin-parity of the isomer is 11/2$^-$ whilst the ground has $J^\pi = 1/2^+$ (E5 or M6 transition since there is a change in parity).
+\item The most probable decay path is a very low energy transition - the Weisskopf estimates show that low energy transitions are strongly inhibited.
+\item The wavefunction overlap between the parent and daughter wavefunction is very small, inhibiting the decay.
+\end{itemize}
+\item Energy level scheme for cadmium 113.
+\item The process of isomer depletion. What is an intermediate state/depletion level? 
+\item Breakup phenomenon. Why breakup occurs (because of the cluster structures of 7Li and 9Be).
+\item What is a cross section?
+% more to come...
+\end{itemize}
+
+\section*{Project Description}
+
+\section*{Project Plan and Feasibility}
+
+%\vspace*{-\baselineskip}
+\bibliographystyle{ieeetr}
+\bibliography{references.bib}{}
+% No more than 20 refs
+
+
+\end{document}

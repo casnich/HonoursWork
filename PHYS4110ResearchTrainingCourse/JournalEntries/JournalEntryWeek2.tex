@@ -1,0 +1,103 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+%\usepackage[hidelinks]{hyperref}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{cite}
+\usepackage[version=4]{mhchem} % for isotope symbols
+\usepackage{a4wide}
+\usepackage[lmargin=1cm,rmargin=1cm,tmargin=1cm,bmargin=2cm,headheight=0in]{geometry}
+\usepackage{amssymb}
+
+
+\hypersetup{colorlinks, linkcolor={blue!50!black}, citecolor={blue!50!black},
+	urlcolor={blue!50!black}}
+
+\begin{document}
+\title{Journal Entry - Week Three - Entry Two}
+\author{Caspian Nicholls, u1027945}
+\date{\today}
+
+\maketitle
+
+\noindent
+I give permission for portions of this work to be used as examples in future science communication course notes.
+% \textit{[Delete if you don't want to do this]}\\
+
+\medskip
+\noindent
+\textbf{Article title:} Isomer depletion as experimental evidence of
+nuclear excitation by electron capture. \\
+\textbf{Authors:} C. J. Chiara, J. J. Carroll, M. P. Carpenter, J. P. Greene, D. J. Hartley, R. V. F. Janssens, G. J. Lane, J. C. Marsh, D. A. Matters, M. Polasik, J. Rzadkiewicz, D. Seweryniak, S. Zhu, S. Bottoni, A. B. Hayes and S. A. Karamian\\
+\textbf{Reference:} Nature, 554, 216-218 (2018). \\
+\textbf{Link:}  \href{https://www.nature.com/articles/nature25483}{Article abstract}. \\
+\textbf{Word count:} 817 words.
+% Ultra short version of approach has 756 words.
+%\textit{Give the word count of everything below this point, e.g. copy paste into the \href{https://app.uio.no/ifi/texcount/online.php}{TeXcount} online tool. 750 word limit.}
+
+\section*{Context}
+%Briefly summarise the background of the area of physics relevant to the problem they are solving. Why it is an important or relevant area and problem?
+
+Internal conversion, whereby an atomic nucleus ejects an electron to release excess energy, is a well-known and repeatedly observed event. However, the inverse process, nuclear excitation by electron capture (NEEC), has been predicted but not yet definitely observed. Here, the capture of a free electron into an atomic vacancy excites the nucleus into a higher-energy state. NEEC may result in isomer depletion, whereby an isomer is excited to a higher energy level (\textit{intermediate state}) before emitting successive $\gamma$ rays to decay toward the ground state. Isomer depletion is being investigated as a way of storing energy at energy densities (per unit mass) many orders of magnitude higher than those of chemical batteries. The observation of NEEC could bring us one step closer to realising the on-demand release of energy from isomeric states.
+
+
+\section*{Purpose}
+%Explain what problem they are solving, or what information they were trying to gain.
+This study searched for evidence of NEEC in $\ce{^{93}Mo}$, from its isomeric state $\ce{^{93m}Mo}$ at 2425~keV to a candidate intermediate state at 2430~keV. Based on this isotope's level scheme, the detection of $\gamma$ rays with energies of 2475, 268, 685 and 1478 keV within a sufficiently narrow time window of each other (so they are emitted in \textit{coincidence}) would provide evidence for NEEC. Both $\ce{^{93m}Mo}$ and the 2430 keV states emit a 268-keV $\gamma$ ray, but only the latter does so at a rate that we can measure. Hence, only if the $\ce{^{93m}Mo}$ isomer is excited to the intermediate state will these coincident emissions be observed.
+%Hence, this combination of emissions would only be observed if the $\ce{^{93m}Mo}$ isomer is excited to the 2430 keV state before it decays.
+
+\section*{Approach}
+%Describe explicitly the method they use to complete their work, i.e. the experimental system and measurements, the model design and computational techniques used, or the setup of their equations and the assumptions applied.
+
+% Long detailed version
+%The conventional nuclear physics approach of firing light nuclei onto heavy target atoms can not produce $\ce{^{93}Mo}$ nuclei with sufficient energy (above 2425 keV) for NEEC to occur. 
+%%Most conventional nuclear reaction experiments fire light nuclei onto heavy target atoms. 
+%%However, this would not produce $\ce{^{93}Mo}$ nuclei with sufficient energy (above 2425 keV) for NEEC to occur. 
+%Thus, nuclear reactions (specifically $\ce{^{7}Li}(\ce{^{90}Zr},p3n)\ce{^{93}Mo}$) with heavy projectiles and light target nuclei were used to produce $\ce{^{93}Mo}$ in excited states with energies greater than that of the isomer, so that they could decay into the isomeric state. 
+%As the emanant $\ce{^{93m}Mo}$ nuclei moved through the $\ce{^{7}Li}$ target foil, they were stripped of their electrons, before colliding with atoms in the target. 
+%These collisions reduced the energy of the resulting ions and scattered electrons from the target atoms which could be captured into their vacated atomic orbitals.
+%Supposing the charge state of a $\ce{^{93m}Mo}$ ion is such that it has a deep atomic orbital at an energy $\sim$5 keV from an atomic state that can be occupied when an electron is captured, matching the energy difference of the isomer and the intermediate state, then if the kinetic energy of said electron is sufficient to excite the $\ce{^{93m}Mo}$ nucleus into this intermediate state, NEEC will occur. 
+%The reaction conditions were chosen to ensure that the effective kinetic energy of electron collisions exceeded the predicted amount required to satisfy this energy-matching condition.
+%The chance of recording these events (unobscured by other $\gamma$ rays) was maximised by setting the detectors within the utilised Gammasphere $\gamma$ ray spectrometer to only record signals when three or more $\gamma$ rays were emitted within 2-$\mu \text{s}$ of each other.
+
+%Ultra short version
+The nuclear reaction $\ce{^{7}Li}(\ce{^{90}Zr},\text{p}3\text{n})\ce{^{93}Mo}$ was used to produce $\ce{^{93}Mo}$ in excited states with energies above that of the isomer, so that they could decay into the isomeric state. Collisions between the emanant $\ce{^{93m}Mo}$ nuclei and atoms in the target resulted in the nuclei being ionized and electrons being scattered from the target atoms. 
+If the charge state of a $\ce{^{93m}Mo}$ ion is such that it has a deep atomic orbital at an energy $\sim$5 keV (matching the energy between the isomer and the intermediate state) from an atomic state that can be occupied when an electron is captured, then if the kinetic energy of a scattered electron is sufficient to excite the $\ce{^{93m}Mo}$ nucleus into this intermediate state, NEEC will occur. The reaction conditions were chosen to ensure that the effective kinetic energy of electron collisions exceeded the predicted amount required to satisfy this energy-matching condition. The chance of recording these events (unobscured by other $\gamma$ rays) was maximised by setting the detectors within the utilised Gammasphere $\gamma$ ray spectrometer to only record signals when three or more $\gamma$ rays were emitted within 2 $\mu \text{s}$ of each other.
+
+
+\section*{Contribution}
+%Describe their results and conclusions, assess how they fit into the field. Mention any important outcomes or future directions enabled by their work.
+The expected signature of NEEC (the $\gamma$ ray emission sequence $2475\rightarrow 268\rightarrow 685\rightarrow 1478$ keV) was observed. The probability of NEEC was calculated as $\geq 0.010(3)$, by analysing the intensity ratio of the 268 keV-peak (unique to NEEC events) to the 2475 keV-peak (characteristic of $\ce{^{93m}Mo}$ formation). To solidify their conclusion that they had observed NEEC, the authors then:
+\begin{itemize}
+\item Repeated the same nuclear reaction they used to observe NEEC, but with beam energy below that required to produce $\ce{^{93}Mo}$ ions with the necessary energy to facilitate NEEC. The coincident $\gamma$ rays that indicate NEEC occurred were not observed, ruling out reactions that were not $\ce{^{90}Zr}(\ce{^{7}Li},p3n)\ce{^{93}Mo}$.
+\item Fabricated their target in such a way that the other materials (carbon and lead) in their target could not react with the $\ce{^{90}Zr}$ beam particles to produce the key $\gamma$ rays they observed.
+\item Ran simulations to confirm that the probability of $\ce{^{93m}Mo}$ being excited to the 2430 keV intermediate state through inelastic scattering in the lithium, carbon or lead layers (Pr $\lesssim 10^{-6}$) of the target was too small to account for the experimental probability they measured.
+\end{itemize}
+%Given all of these tests, it is probable that this study did genuinely report the first observation of NEEC.
+
+\section*{Relevance}
+%Explain how this paper is relevant to your project and what you are trying to get out of the paper. Does it suggest other papers you should read, or give you new information you need?
+We are trying to find a possible isomer depletion pathway through which energy can be released from the isomer $\ce{^{113m}Cd}$. This paper suggests that observing isomer depletion caused by NEEC (and thus identifying potential intermediate states) may be feasible if a nuclear reaction with heavy projectile nuclei and light target atoms is used.
+
+\section*{Quality}
+%Discuss the quality of the writing and presentation of results, and try to assess how much you trust their assumptions, approach, and conclusions. You can talk to a supervisor to help you with this.
+This paper was well-written and made for straightforward reading. The approach used and the conclusions made were well justified, particularly in the supplementary methods section where additional details to support the decisions they made regarding the experimental design are provided.
+%I did not fully understand their explanation of the details of the resonant nature of the electron-capture process that is NEEC, but with further reading of subsequent studies of NEEC that have been written since this paper was published, I feel that I could come to comprehend these specifics.
+
+
+\section*{Questions/Directions}
+%List any questions the paper has raised, and how you might go about addressing them. Describe any directions your reading/own work could take that are suggested by this paper.
+Looking for other studies that have cited this paper
+%(or talking to Greg Lane, who co-authored this paper)
+would be a good place to start working towards understanding the finer details and potential applications of NEEC. This could also be a way to see what developments have been made in this area (especially in terms of NEEC-based isomer depletion). For my project, we plan to fire light-ion beams onto a $\ce{^{110}Pd}$ target foil, but our 14UD accelerator could not accelerate a $\ce{^{110}Pd}$ beam to a high enough energy to initiate a heavy-projectile-light-target approach like these authors used.
+
+
+%\vspace*{-\baselineskip}
+%\bibliographystyle{ieeetr}
+%\bibliography{references.bib}{}
+
+
+
+
+
+\end{document}
