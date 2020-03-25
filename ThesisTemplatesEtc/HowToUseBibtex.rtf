@@ -1,0 +1,38 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1561\cocoasubrtf600
+{\fonttbl\f0\fmodern\fcharset0 Courier;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\sl280\partightenfactor0
+
+\f0\fs24 \cf2 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Here is an example of a Bibtex file with some introductory information on how to get it to work.\
+\
+Bibtex is a package within Latex that automatically compiles bibliography entries into a standard form for each type of entry - book, article, conference proceeding etc. The entries are put together in such a way that bits of the entry such as author's name, title, date  all come out in their appropriate format.\
+\
+An excellent introduction to both Latex and Bibtex can be obtained through the ANU Graduate\
+Information Literacy Program.\
+Detailed online introduction to Bibtex can be found at\
+http://en.wikipedia.org/wiki/Bibtex.  The wikipedia site has links to many tutorials.\
+An additional introductory site is http://www.cs.arizona.edu/~collberg/Teaching/07.231/BibTeX/bibtex.html\
+\
+\
+To get Bibtex to work, include the document "referenceexample.bib" in the same folder as your thesis or project. Save the file with the suffix ".bib" eg. "referenceexample.bib".\
+\
+To use the "referenceexample.bib" file, include the line "\\bibliography\{referenceexample\}" instead of the usual "\\include\{bibliography\}" line in your Latex document.\
+\
+With Bibtex, you also need to choose a style of referencing.\
+A style chooses the format of each bibliography entry and also the order in which they are presented. Some styles number bibliography entries alphabetically and present them in this order; others order entries according to when they %were first cited within the latex document.\
+There are many styles available within Latex; a reasonable one is the "ieeetr" style which orders bibliography entries according to the order in which they are cited.\
+Other styles include "plain", "unsrt", "amsplain", and "amsunsrt".  Other styles are available in different packages and can be found on the web.\
+A style is included in your Latex document with the line "\\bibliographystyle\{ieeetr\}".\
+\
+To get it all to compile you need to cite the entries "\\cite\{shockleyqueisser\}", "\\cite\{deVos\}" and "\\cite\{blakers\}" somewhere in your latex document.\
+\
+Run Latex once, then Bibtex, then Latex once more, then Latex once more again.\
+This is the order in which the programs need to run if you have included new citations in your document or added new entries in the .bib file.  If things haven't changed with your referencing, then a smaller subset of these commands\
+will suffice.\
+\
+Best wishes.\
+}
