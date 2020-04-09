@@ -1,0 +1,149 @@
+﻿The Science of Scientific Writing (1990)
+https://www.americanscientist.org/blog/the-long-view/the-science-of-scientific-writing
+
+Introduction
+
+"If the reader is to grasp what the writer means, the writer must understand what the reader needs."
+
+Key point of this article: complexity of ideas need not lead to the unclear or impenetrable expression of those ideas.
+Key "result": "improving the quality of writing actually improves the quality of thought".
+
+Fundamental purpose of scientific discourse is the communication of information and thought (not just its presentation). Thus we need to understand how readers go about reading to improve our writing.
+
+Writing with the reader in mind: expectation and context (section 2)
+
+“Readers do not simply read; they interpret” - readers make many of their most important interpretative decisions about the substance of what they are reading based on clues they get from its structure.
+
+As in tables (independent variable/context on the left, dependent variable/new important information on the right), information is interpreted more easily and more uniformly if it is placed where most readers expect to find it. Writers that are consciously aware of these locations can better control the degrees of recognition and emphasis a reader gives to the various pieces of information being presented.
+
+e.g. on the level of a complete research article, having sections labelled Introduction, Experimental Methods, Results and Discussion is commonplace. These labels signpost what information we as readers expect to see in each section, so when too much experimental detail is found in the Results section (for example), we become confused.
+
+These expectations carry over to smaller units of discourse. However, they hold for sections of discourse of any size.
+By “unit of discourse” we mean anything with a beginning and an end: a clause, a sentence, a section, an article etc.
+If these structural expectations are repeatedly violated, readers have to struggle to unravel the structure of a passage. A small increase in the complexity of the context leads to a dramatic increase in the chance of the writing being misinterpreted, or going completely uninterpreted.
+
+Reader expectations for the structure of prose (section 3)
+
+Presents an example paragraph that is difficult to read, not just because it contains lots of “scientific jargon”. Deeper problems lie within this paragraph.
+
+Subject-verb separation
+
+Long sentences need not be difficult to read, but they are difficult to write. Well-written long sentences present information to readers in the order that they both need and expect it.
+
+Readers expect a grammatical subject to be followed immediately by the verb. For example, “the smallest banana has been identified as yellow”. Subject: “the smallest banana”. Verb: “has been identified”. Anything of length that comes between a subject and a verb is read as an interruption and thus as something that is less important.
+
+Here is the example cited in the article: “The smallest of the URF's (URFA6L), a 207-nucleotide (nt) reading frame overlapping out of phase the NH2-terminal portion of the adenosinetriphosphatase (ATPase) subunit 6 gene has been identified as the animal equivalent of the recently discovered yeast H+-ATPase subunit 8 gene. “
+    • Red: subject. Blue: verb. They are very clearly separated and everything between them is read as an interruption.
+    • Until the verb appears, we do not know what the subject is doing, or what the sentence is all about. Anything that comes between them is perceived as unimportant, even if it is not; its importance is hard to assess.
+
+Each unit of discourse is expected to make a single point, or state a single idea. In the case of a sentence, the point is expected to appear in a specific place that is reserved for emphasis.
+    • Red: subject. Blue: verb.
+
+The stress position
+
+Readers naturally emphasise the material that comes at the end of a sentence. This location is referred to as a “stress position”. Placing the key information at the point where the reader is naturally exerting the greatest reading emphasis (the stress position) greatly increases the chance that both reader and writer will perceive the same material as being worthy of primary focus.
+
+In short, sentence structure helps persuade the reader of the relative importance of the different parts of the sentence.
+
+As readers we subconsciously build up the end of a sentence, taking a “mental breath” between sentences. This exhalation produces a sense of emphasis, so it is natural to place the exciting conclusion of the idea that is being developed at the end of the sentence. We do not start with the cheesecake and work our way up to the broccoli.
+
+If the stress position is not occupied by important material, then either the reader will have to go searching for the important material, or the material that does occupy the stress position will be perceived as valuable when it is in reality not.
+
+The stress position always coincides with the moment of syntactic closure and can take any size. The beginning of the stress position is the point where the reader knows there is nothing else left in the clause or sentence. 
+
+Secondary stress positions can be formed by (properly) using a colon or semicolon. 
+
+Example: “The smallest of the URF's is URFA6L, a 207-nucleotide (nt) reading frame overlapping out of phase the NH2-terminal portion of the adenosinetriphosphatase (ATPase) subunit 6 gene; it has been identified as the animal equivalent of the recently discovered yeast H+-ATPase subunit 8 gene.”
+
+The semicolon creates a second stress position, so that two pieces of information can be emphasised. The first is “a 207-nucleotide … subunit 6 gene” whilst the second is “it has been identified … subunit 8 gene”.
+
+Note re colons and semicolons
+By grammatical convention, the material preceding these punctuation marks must be able to stand alone as a complete sentence.
+
+Example: “The smallest of the URF's is URFA6L, a 207-nucleotide (nt) reading frame overlapping out of phase the NH2-terminal portion of the adenosinetriphosphatase (ATPase) subunit 6 gene; it has been identified as the animal equivalent of the recently discovered yeast H+-ATPase subunit 8 gene.”
+
+Three rhetorical principles to follow based on reader expectations
+    1. Grammatical subjects should be followed as soon as possible by their verbs.
+    2. Every unit of discourse, no matter the size, should serve a single function or make a single point.
+    3. Information we wish to emphasise as writers should appear at points of syntactic closure.
+
+Example that does not follow these principles:
+
+“Recently, however, immunoprecipitation experiments with antibodies to purified, rotenone-sensitive NADH-ubiquinone oxido-reductase [hereafter referred to as respiratory chain NADH dehydrogenase or complex I] from bovine heart, as well as enzyme fractionation studies, have indicated that six human URF's (that is, URF1, URF2, URF3, URF4, URF4L, and URF5, hereafter referred to as ND1, ND2, ND3, ND4, ND4L and ND5) encode subunits of complex I.”
+
+Attempt at making this better:
+
+“Recently, however, immunoprecipitation experiments and enzyme fractionation studies have indicated that six human URF's encode subunits of purified, rotenone-sensitive NADH-ubiquinone oxido-reductase [hereafter referred to as respiratory chain NADH dehydrogenase or complex I]. The former experiments used antibodies to purified complex I from bovine heart. The six human URF’s that were identified are URF1, URF2, URF3, URF4, URF4L, and URF5, hereafter referred to as ND1, ND2, ND3, ND4, ND4L and ND5.”
+
+The revision given in the article:
+
+“Recently, however, several human URF's have been shown to encode subunits of rotenone-sensitive NADH-ubiquinone oxido-reductase. This is a large complex that also contains many subunits synthesized in the cytoplasm; it will be referred to hereafter as respiratory chain NADH dehydrogenase or complex I. Six subunits of Complex I were shown by enzyme fractionation studies and immunoprecipitation experiments to be encoded by six human URF's (URF1, URF2, URF3, URF4, URF4L, and URF5); these URF's will be referred to subsequently as ND1, ND2, ND3, ND4, ND4L and ND5.”
+
+Note that “meaning” requires the combined participation of text and reader; all sentences are infinitely interpretable, given an infinite number of interpreters. At best, we can only increase the odds that most readers will tend to interpret our writing as we intended. 
+
+When is a sentence too long? From the article, “when it has more viable candidates for stress positions (i.e. too many potentially important ideas) than there are stress positions available.”
+
+The topic position
+
+The principles connected with the stress position are summarised by “save the best for last”. However, to summarise the principles connected with the start of a sentence, referred to hereafter as the topic position, we reference the adage “first things first”. In the topic position the reader both needs and expects perspective and context.
+Example: “Bees disperse pollen” tells us something about bees. “Pollen is dispersed by bees” tells us something about pollen. Which we use depends on what our focus as writers is; is it bees or pollen?
+
+Readers also expect the material in the topic position to link back to the previous discussion and provide context for the material that is to come. 
+
+When material making its first appearance in a discourse (“new information”) is important enough to receive emphasis, it functions best in the stress position.
+
+When old information (that previously introduced) sits in the topic position, it helps readers to construct the logical flow of the argument: it focuses attention on one particular thread of the discussion whilst both referring backward and leaning forward.
+
+Example passage to break down:
+
+“Large earthquakes along a given fault segment do not occur at random intervals because it takes time to accumulate the strain energy for the rupture. The rates at which tectonic plates move and accumulate strain at their boundaries are approximately uniform. Therefore, in first approximation, one may expect that large ruptures of the same fault segment will occur at approximately constant time intervals. If subsequent main shocks have different amounts of slip across the fault, then the recurrence time may vary, and the basic idea of periodic mainshocks must be modified. For great plate boundary ruptures the length and slip often vary by a factor of 2. Along the southern segment of the San Andreas fault the recurrence interval is 145 years with variations of several decades. The smaller the standard deviation of the average recurrence interval, the more specific could be the long term prediction of a future mainshock.”
+
+This paragraph appears to be clearly written, intelligently fashioned and ultimately well constructed. Yet we arrive at the end of the paragraph without a clear sense of where we have been or where we are going. In short, the story of the paragraph (this unit of discourse) is not clear.
+
+Consider the information in each sentence’s topic position:
+
+Large earthquakes
+The rates
+Therefore … one
+subsequent mainshocks
+great plate boundary ruptures
+the southern segment of the San Andreas fault
+the smaller the standard deviation…
+
+Many of these are phrases or terms that are making their first appearance in this paragraph; they are each pieces of new information in the place where the reader looks for old, familiar information. Thus, the focus of the story of this paragraph constantly shifts, making it hard to track the exact narrative.
+
+Note: the regular repetition of “recurrence intervals” (or similar phrases) does give a clue to what the actual focus of the paragraph is. Unfortunately, these repeated phrases rarely appear at the beginning of sentences, where they would help us maintain our focus on their continuing story.
+
+Do not begin sentences with new information and end it with old information, as this forbids the sense of comfort and orientation at the start of the sentence and the sense of fulfilling arrival (as in syntactic closure) at the end.
+One way to improve this example is to ensure the following for each sentence:
+    1. The backward-linking old information appears in the topic position.
+    2. The person, thing or concept whose story it is appears in the topic position.
+    3. The new, emphasis-worthy information appears in the stress position.
+
+Revision from the article (topic position in red, stress position in blue).
+Large earthquakes along a given fault segment do not occur at random intervals because it takes time to accumulate the strain energy for the rupture. The rates at which tectonic plates move and accumulate strain at their boundaries are roughly uniform. Therefore, nearly constant time intervals (at first approximation) would be expected between large ruptures of the same fault segment. [However?], the recurrence time may vary; the basic idea of periodic mainshocks may need to be modified if subsequent mainshocks have different amounts of slip across the fault. [Indeed?], the length and slip of great plate boundary ruptures often vary by a factor of 2. [For example?], the recurrence intervals along the southern segment of the San Andreas fault is 145 years with variations of several decades. The smaller the standard deviation of the average recurrence interval, the more specific could be the long term prediction of a future mainshock.
+
+Put in the topic position the old information that links backward; put in the stress position the new information you want the reader to emphasize.
+Perceiving logical gaps
+
+Old information is required somewhere in a sentence to give the reader something to (logically) link back to. Make sure that there is a logical connection between sentences and no necessary information is omitted.
+
+Locating the action
+
+Readers expect the action of a sentence to be articulated by the verb.
+Red: subject. Blue: verb. Green: the action.
+Not really sure what the point of this section is. What do the authors mean by action? 
+
+Writing and the scientific process (the conclusion section)
+
+The comprehensibility of scientific writing can be ensured by observing the following structural principles:
+
+    1. Follow a grammatical subject as soon as possible with its verb.
+    2. Place “new information” that the reader should emphasise in the stress position.
+    3. Place the person or thing whose “story” a sentence is telling at the beginning of the sentence, in the topic position.
+    4. Place appropriate “old information” (material already stated in the discourse) in the topic position for linkage backward and contextualisation forward.
+    5. Articulate the action of every clause or sentence in its verb (?)
+    6. In general, provide context for your reader before asking that reader to consider anything new.
+    7. In general, try to ensure that the relative emphases of the substance coincide with the relative expectations for emphasis raised by the structure.
+None of these principles should be considered rules or slavishly adhered to. There is no fixed algorithm for good writing. 
+Scientific documents cannot “exist” or have meaning without the interpretation of the reader. Thus the substance of science consists of the discovery of data, its recording and its interpretation, both by researcher and reader. The structure of the scientific article becomes the structure of the scientific argument, so improving either one will improve the other.

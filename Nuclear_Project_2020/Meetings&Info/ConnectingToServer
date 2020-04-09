@@ -14,4 +14,4 @@ Enter nucl03:2 (or whatever was returned in `New 'nucl03:x (cwn103)' desktop is 
 
 Enter password (quet). You are now on the server
 
-To kill vncserver connections that are no longer needed, run `kill vncserver :x` (on Ubuntu) where x is the connection number (this will have been given in `nucl03:x` when it was started).
+To kill vncserver connections that are no longer needed, run `vncserver -kill :x` (on Ubuntu) where x is the connection number (this will have been given in `nucl03:x` when it was started).

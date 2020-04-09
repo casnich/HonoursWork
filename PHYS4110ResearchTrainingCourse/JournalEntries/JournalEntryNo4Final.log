@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.3.30)  2 APR 2020 15:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.3.30)  5 APR 2020 09:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -958,13 +958,13 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 82.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 87.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 82.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 87.
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 99.
  [2]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 99.
@@ -992,7 +992,7 @@ f-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/ty
 pe1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmti12.pfb>
-Output written on JournalEntryNo4Final.pdf (2 pages, 92800 bytes).
+Output written on JournalEntryNo4Final.pdf (2 pages, 92767 bytes).
 PDF statistics:
  59 PDF objects out of 1000 (max. 8388607)
  46 compressed objects within 1 object stream
