@@ -1,0 +1,58 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2511
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fswiss\fcharset0 Helvetica-Bold;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 17/3/20 meeting\
+\
+Take photos (for presentations) of:\
+- detectors\
+- detectors connected to pixie with radiation sources in place\
+\
+Targets:\
+- (110Pd ones from Argonne): individually 0.5-0.6 mg/cm^2, but they can be stacked to improve this\
+- something to think about: how to mount different targets together\
+	- option 1: find a way to clamp targets in their individual frames to the mount (straight stack)\
+	- option 2: remove them each from their frames, stack the foils together and then make a new frame to hold all the foils together\
+- will require looking at how they would mount into CAESAR\
+\
+PACE and SRIM calculations together give us a picture of what happens as the beam passes through a target\
+- where the energy is lost\
+- what the cross section is\
+- what the energy of the beam is when the beam leaves the target, and thus what the total cross section (integrated over energy) is for that beam-target foil combo\
+\
+SRIM solves Bethe-Bloch equation for particle interactions (beam particles with electrons)\
+- Energies in SRIM are in keV\
+- Stopping and range tables give simple tabulated data about the reaction\
+\
+TRIM gives more complex outputs\
+- allows you to build targets with multiple layers\
+- Our Pd110 targets are strong enough to use self-supporting foils, whereas with some other targets you have to evaporate your target foil onto a carbon backing, say\
+\
+Areal density of our target foils is just their volume density * their length (or depth really - size in third/transverse dimension)\
+\
+Parameters for TRIM/SRIM/STROP3:\
+- thickness of target\
+- material you are using\
+- beam energy (based on PACE calculations)\
+- what energy loss across the target will be (which is where STROP3 comes in)\
+	or explicitly STROP3 gives what the beam energy will be when it leaves the target \
+\
+To do with TRIM/SRIM/STROP3:\
+- look at some different scenarios (diff energies especially) - maybe 5 MeV steps\
+- include cross section notes from PACE stuff\
+\
+\
+
+\f1\b Research proposal (RP)\
+
+\f0\b0 - By meeting in week 6 (Tuesday 31 March), have a draft of RP started and sent to AJ. Have it be as good as possible by then.\
+\
+
+\f1\b Thesis writing\
+
+\f0\b0 - Stuff from journal entries and RP is a good foundation for thesis introductory sections\
+- There will be crossover in tasks\
+- Can prepare scaffolding for data analysis sections}

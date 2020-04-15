@@ -1,0 +1,36 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+%\usepackage[hidelinks]{hyperref}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{cite}
+\usepackage[version=4]{mhchem} % for isotope symbols
+
+\hypersetup{colorlinks, linkcolor={blue!50!black}, citecolor={blue!50!black},
+	urlcolor={blue!50!black}}
+
+\begin{document}
+\title{Notes for my thesis}
+\author{Caspian Nicholls, u1027945}
+\date{\today}
+
+\maketitle
+
+\section*{Cd-113}
+
+\medskip
+\noindent
+The isomer $\ce{^{113m}Cd}$ mainly undergoes $\beta$-decay to the ground state of $\ce{^{113}In}$ with a 99.86\% branching ratio, with the other 0.14\% corresponding to an internal $\gamma$-ray transition to the $\ce{^{113}Cd}$ ground state with an energy of 263.59 keV~\cite{hayakawa_neutron_2009}.
+
+% Checking that Better BibTex works with unicode characters. It does. 
+%\medskip
+%\noindent
+%Text~\cite{warr_study_1997-1}.
+
+
+\vspace*{-\baselineskip}
+\bibliographystyle{ieeetr}
+\bibliography{references.bib}{}
+
+
+\end{document}
